@@ -1,0 +1,101 @@
+[code]
+System:
+  Kernel: 6.17.0-29-generic arch: x86_64 bits: 64 compiler: gcc v: 13.3.0 clocksource: tsc
+  Desktop: KDE Plasma v: 5.27.12 tk: Qt v: 5.15.13 wm: kwin_x11 vt: 7 dm: 1: LightDM v: 1.30.0
+    2: SDDM note: stopped Distro: Linux Mint 22.3 Zena base: Ubuntu 24.04 noble
+Machine:
+  Type: Laptop System: TOSHIBA product: SATELLITE C50-A v: PSCFGV-005004AR
+    serial: <superuser required>
+  Mobo: TOSHIBA model: Portable PC v: MP serial: <superuser required> part-nu: PSCFGV
+    uuid: <superuser required> UEFI-[Legacy]: Insyde v: 1.30 date: 09/16/2013
+Battery:
+  ID-1: BAT0 charge: 2.3 Wh (92.0%) condition: 2.5/47.5 Wh (5.2%) volts: 10.8 min: 10.8
+    model: PA5109U-1BRS type: Li-ion serial: <filter> status: charging
+CPU:
+  Info: dual core model: Intel Celeron 1037U bits: 64 type: MCP smt: <unsupported> arch: Ivy Bridge
+    rev: 9 cache: L1: 128 KiB L2: 512 KiB L3: 2 MiB
+  Speed (MHz): avg: 798 min/max: 800/1800 cores: 1: 798 2: 798 bogomips: 7182
+  Flags: ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+Graphics:
+  Device-1: Intel 3rd Gen Core processor Graphics vendor: Toshiba driver: i915 v: kernel
+    arch: Gen-7 ports: active: LVDS-1 empty: DP-1,HDMI-A-1,VGA-1 bus-ID: 00:02.0 chip-ID: 8086:0156
+    class-ID: 0300
+  Device-2: Importek TOSHIBA Web Camera - HD driver: uvcvideo type: USB rev: 2.0 speed: 480 Mb/s
+    lanes: 1 bus-ID: 1-1.3:4 chip-ID: 10f1:1a52 class-ID: 0e02
+  Display: x11 server: X.Org v: 21.1.11 with: Xwayland v: 23.2.6 compositor: kwin_x11 driver: X:
+    loaded: modesetting unloaded: fbdev,vesa dri: crocus gpu: i915 display-ID: :0 screens: 1
+  Screen-1: 0 s-res: 1366x768 s-dpi: 96 s-size: 361x203mm (14.21x7.99") s-diag: 414mm (16.31")
+  Monitor-1: LVDS-1 model: BOE Display 0x0654 res: 1366x768 hz: 60 dpi: 101
+    size: 344x194mm (13.54x7.64") diag: 395mm (15.5") modes: 1366x768
+  API: EGL v: 1.5 hw: drv: intel crocus platforms: device: 0 drv: crocus device: 1 drv: swrast
+    gbm: drv: crocus surfaceless: drv: crocus x11: drv: crocus inactive: wayland
+  API: OpenGL v: 4.5 compat-v: 4.2 vendor: intel mesa v: 25.2.8-0ubuntu0.24.04.1 glx-v: 1.4
+    direct-render: yes renderer: Mesa Intel HD Graphics 2500 (IVB GT1) device-ID: 8086:0156
+  API: Vulkan v: 1.3.275 layers: 3 surfaces: xcb,xlib device: 0 type: integrated-gpu driver: N/A
+    device-ID: 8086:0156 device: 1 type: cpu driver: N/A device-ID: 10005:0000
+Audio:
+  Device-1: Intel 7 Series/C216 Family High Definition Audio vendor: Toshiba 7
+    driver: snd_hda_intel v: kernel bus-ID: 00:1b.0 chip-ID: 8086:1e20 class-ID: 0403
+  API: ALSA v: k6.17.0-29-generic status: kernel-api
+  Server-1: PipeWire v: 1.0.5 status: active with: 1: pipewire-pulse status: active
+    2: wireplumber status: active 3: pipewire-alsa type: plugin
+Network:
+  Device-1: Qualcomm Atheros AR8162 Fast Ethernet vendor: Toshiba driver: alx v: kernel pcie:
+    speed: 2.5 GT/s lanes: 1 port: 2000 bus-ID: 01:00.0 chip-ID: 1969:1090 class-ID: 0200
+  IF: enp1s0 state: down mac: <filter>
+  Device-2: Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter vendor: Lite-On
+    driver: ath9k v: kernel pcie: speed: 2.5 GT/s lanes: 1 bus-ID: 02:00.0 chip-ID: 168c:0036
+    class-ID: 0280
+  IF: wlp2s0 state: up mac: <filter>
+Drives:
+  Local Storage: total: 465.76 GiB used: 143.03 GiB (30.7%)
+  ID-1: /dev/sda vendor: HGST (Hitachi) model: HTS545050A7E380 size: 465.76 GiB speed: 3.0 Gb/s
+    tech: HDD rpm: 5400 serial: <filter> fw-rev: AC90 scheme: MBR
+Partition:
+  ID-1: / size: 268.62 GiB used: 76.72 GiB (28.6%) fs: ext4 dev: /dev/sda6
+  ID-2: /boot size: 5.55 GiB used: 328.5 MiB (5.8%) fs: ext4 dev: /dev/sda1
+Swap:
+  ID-1: swap-1 type: file size: 4 GiB used: 288.1 MiB (7.0%) priority: -2 file: /swapfile4g
+  ID-2: swap-2 type: zram size: 1.85 GiB used: 1.84 GiB (99.0%) priority: 5 dev: /dev/zram0
+USB:
+  Hub-1: 1-0:1 info: full speed or root hub ports: 2 rev: 2.0 speed: 480 Mb/s lanes: 1
+    chip-ID: 1d6b:0002 class-ID: 0900
+  Hub-2: 1-1:2 info: Intel Integrated Rate Matching Hub ports: 4 rev: 2.0 speed: 480 Mb/s
+    lanes: 1 chip-ID: 8087:0024 class-ID: 0900
+  Device-1: 1-1.1:3 info: Realtek RTS5129 Card Reader Controller type: <vendor specific>
+    driver: rtsx_usb,rtsx_usb_ms,rtsx_usb_sdmmc interfaces: 1 rev: 2.0 speed: 480 Mb/s lanes: 1
+    power: 500mA chip-ID: 0bda:0129 class-ID: ff00 serial: <filter>
+  Device-2: 1-1.3:4 info: Importek TOSHIBA Web Camera - HD type: video driver: uvcvideo
+    interfaces: 2 rev: 2.0 speed: 480 Mb/s lanes: 1 power: 500mA chip-ID: 10f1:1a52 class-ID: 0e02
+  Hub-3: 2-0:1 info: full speed or root hub ports: 2 rev: 2.0 speed: 480 Mb/s lanes: 1
+    chip-ID: 1d6b:0002 class-ID: 0900
+  Hub-4: 2-1:2 info: Intel Integrated Rate Matching Hub ports: 4 rev: 2.0 speed: 480 Mb/s
+    lanes: 1 chip-ID: 8087:0024 class-ID: 0900
+  Hub-5: 2-1.2:25 info: Dell Keyboard Hub ports: 3 rev: 1.1 speed: 12 Mb/s lanes: 1 power: 90mA
+    chip-ID: 413c:1002 class-ID: 0900
+  Device-1: 2-1.2.1:26 info: Dell SK-8125 Keyboard type: keyboard,HID driver: hid-generic,usbhid
+    interfaces: 2 rev: 1.1 speed: 12 Mb/s lanes: 1 chip-ID: 413c:2002 class-ID: 0300
+  Device-2: 2-1.2.2:27 info: USB OPTICAL MOUSE type: mouse driver: hid-generic,usbhid
+    interfaces: 1 rev: 1.1 speed: 1.5 Mb/s lanes: 1 power: 100mA chip-ID: 275d:0ba6 class-ID: 0301
+  Device-3: 2-1.2.3:28 info: USB keyboard type: keyboard,HID driver: hid-generic,usbhid
+    interfaces: 2 rev: 1.1 speed: 1.5 Mb/s lanes: 1 power: 98mA chip-ID: c0f4:07c0 class-ID: 0300
+Sensors:
+  System Temperatures: cpu: 50.0 C mobo: N/A
+  Fan Speeds (rpm): N/A
+Repos:
+  Packages: 3125 pm: dpkg pkgs: 3116 pm: appimage pkgs: 1 pm: flatpak pkgs: 8
+  No active apt repos in: /etc/apt/sources.list
+  Active apt repos in: /etc/apt/sources.list.d/corretto.list
+    1: deb [signed-by=/usr/share/keyrings/corretto-keyring.gpg] https: //apt.corretto.aws stable main
+  Active apt repos in: /etc/apt/sources.list.d/official-package-repositories.list
+    1: deb https: //mirrors.cicku.me/linuxmint/packages zena main upstream import backport
+    2: deb https: //mirror.ati.tn/ubuntu noble main restricted universe multiverse
+    3: deb https: //mirror.ati.tn/ubuntu noble-updates main restricted universe multiverse
+    4: deb https: //mirror.ati.tn/ubuntu noble-backports main restricted universe multiverse
+    5: deb http: //security.ubuntu.com/ubuntu/ noble-security main restricted universe multiverse
+Info:
+  Memory: total: 4 GiB available: 3.71 GiB used: 2.15 GiB (58.1%)
+  Processes: 244 Power: uptime: 1d 3h 56m states: freeze,mem,disk suspend: deep wakeups: 6
+    hibernate: platform Init: systemd v: 255 target: graphical (5) default: graphical
+  Compilers: gcc: 13.3.0 Client: Unknown python3.12 client inxi: 3.3.34
+[/code]
