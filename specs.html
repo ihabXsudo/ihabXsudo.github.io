@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>                     
+  <!-- this is a prototype for my profile page, i will add more sections and make it better in the future -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudo Hub</title>
+  <link rel="stylesheet" href="specs.css">
+</head>
+<body>
+    
+  <div class="bar">
+    <div class="right-bar-sec">
+      <img src="media/sudo_V2.png" alt="pfp" class="bar-icon" >
+      <h3>Sudo's Hub</h3>
+    </div>
+    <div class="left-bar-sec">
+      <a class="bar-btn">home</a>
+      <a class="bar-btn">specs</a>
+      <a class="bar-btn">test</a>
+      <a class="bar-btn">test</a>
+    </div>
+    <div class="bar-main-btns">
+      <a class="theme-switch" onclick="themefunction()">
+        <img src="media/language.svg" alt="getout">
+      </a>
+      <a class="expand-btn" onclick="expandfunction()">
+        <img src="media/menu.svg" alt="menu">
+    </a>
+    </div>
+  </div>
+
+
+  <div class="div">
+    <h3>As 26 May 2026, My:</h3>
+    <div class="specs">
+      <p class="spec">
+      <span class="importent-text">Age:</span> <span>15 Year old</span>
+      </p>
+      <p class="spec">
+      <span class="importent-text">Location:</span> <span>Tunisia, nabel</span>
+      </p>
+      <p class="spec">
+      <span class="importent-text">Device:</span> <span>Laptop, Toshiba satellite-c50-a</span>
+      </p>
+      <p class="spec">
+      <span class="importent-text">Operating System:</span> <span>Linux Mint, Kde Plasma desktop</span>
+      </p>
+    </div>
+    <a href="./media/Specs.png" target="_blank" class="Specs-png">
+      <p class="note">click to zoom</p>
+      <img src="./media/Specs.png" alt="specs" class="Specs-png">
+    </a>
+    <h5>Download the nerdy stuff about my pc</h5>
+    <a href="./media/specs.txt" download="Specs.txt" class="button">Download the file</a>
+  </div>
+  <h1 style="text-align: center;">Apps And Programs I Use</h1>
+  <h1 style="text-align: center;">=======================</h1>
+  <div class="div">
+    <div class="certieria-row">
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      <div class="certieria">
+        <h2>3D In General</h2>
+        <img src="media/prisma.png" alt="prisma" class="cer-img">
+      </div>
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script>
+  const element = document.querySelector('.left-bar-sec');
+  const elementExpand = document.querySelector('.left-bar-sec-expanded');
+  expandfunction = () => {
+    if(element.classList.contains('left-bar-sec')) {
+      element.classList.remove('left-bar-sec');
+      element.classList.add('left-bar-sec-expanded');
+        
+    } else {
+      element.classList.remove('left-bar-sec-expanded');
+      element.classList.add('left-bar-sec');
+    }
+  }
+
+</script>
